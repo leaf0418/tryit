@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65686e26-aff7-42d5-a906-c4307b2c12da" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/ImageUpload.py" beforeDir="false" afterPath="$PROJECT_DIR$/ImageUpload.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/1231_p.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/1231_p.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/upload.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/upload.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,25 +81,25 @@
       <screen x="0" y="23" width="1440" height="815" />
     </state>
     <state x="354" y="28" key="CommitChangelistDialog2/0.23.1440.815@0.23.1440.815" timestamp="1577190320178" />
-    <state width="1418" height="207" key="GridCell.Tab.0.bottom" timestamp="1577195800958">
+    <state width="1418" height="207" key="GridCell.Tab.0.bottom" timestamp="1577197192828">
       <screen x="0" y="23" width="1440" height="815" />
     </state>
-    <state width="1418" height="207" key="GridCell.Tab.0.bottom/0.23.1440.815@0.23.1440.815" timestamp="1577195800958" />
+    <state width="1418" height="207" key="GridCell.Tab.0.bottom/0.23.1440.815@0.23.1440.815" timestamp="1577197192828" />
     <state width="1418" height="210" key="GridCell.Tab.0.bottom/0.23.1440.817@0.23.1440.817" timestamp="1577192581363" />
-    <state width="1418" height="207" key="GridCell.Tab.0.center" timestamp="1577195800957">
+    <state width="1418" height="207" key="GridCell.Tab.0.center" timestamp="1577197192827">
       <screen x="0" y="23" width="1440" height="815" />
     </state>
-    <state width="1418" height="207" key="GridCell.Tab.0.center/0.23.1440.815@0.23.1440.815" timestamp="1577195800957" />
+    <state width="1418" height="207" key="GridCell.Tab.0.center/0.23.1440.815@0.23.1440.815" timestamp="1577197192827" />
     <state width="1418" height="210" key="GridCell.Tab.0.center/0.23.1440.817@0.23.1440.817" timestamp="1577192581362" />
-    <state width="1418" height="207" key="GridCell.Tab.0.left" timestamp="1577195800957">
+    <state width="1418" height="207" key="GridCell.Tab.0.left" timestamp="1577197192827">
       <screen x="0" y="23" width="1440" height="815" />
     </state>
-    <state width="1418" height="207" key="GridCell.Tab.0.left/0.23.1440.815@0.23.1440.815" timestamp="1577195800957" />
+    <state width="1418" height="207" key="GridCell.Tab.0.left/0.23.1440.815@0.23.1440.815" timestamp="1577197192827" />
     <state width="1418" height="210" key="GridCell.Tab.0.left/0.23.1440.817@0.23.1440.817" timestamp="1577192581362" />
-    <state width="1418" height="207" key="GridCell.Tab.0.right" timestamp="1577195800958">
+    <state width="1418" height="207" key="GridCell.Tab.0.right" timestamp="1577197192828">
       <screen x="0" y="23" width="1440" height="815" />
     </state>
-    <state width="1418" height="207" key="GridCell.Tab.0.right/0.23.1440.815@0.23.1440.815" timestamp="1577195800958" />
+    <state width="1418" height="207" key="GridCell.Tab.0.right/0.23.1440.815@0.23.1440.815" timestamp="1577197192828" />
     <state width="1418" height="210" key="GridCell.Tab.0.right/0.23.1440.817@0.23.1440.817" timestamp="1577192581362" />
     <state width="1418" height="210" key="GridCell.Tab.1.bottom" timestamp="1577195446963">
       <screen x="0" y="23" width="1440" height="815" />
@@ -141,7 +139,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/ImageUpload.py</url>
-          <line>59</line>
+          <line>51</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>

@@ -18,7 +18,7 @@ def allowed_file(filename):
 
 @app.route('/', methods=['GET', 'POST'])
 def upload_file():
-	global patch_size
+	# global patch_size
 	if request.method == 'POST':
 		# check if the post request has the file part
 		if 'file' not in request.files:
@@ -36,15 +36,15 @@ def upload_file():
 			filename = '{}.jpg'.format(str(datetime.now()))
 			fpath = os.path.join(app.config['UPLOAD_FOLDER'], filename).replace('\\', '/')
 			file.save(fpath)
-			return redirect(url_for('showfile', filename=filename))
+			return redirect(url_for('showfile', filename=filename, patch=patch_size))
 	return render_template('upload.html', pagetitle="Upload page")
 
 
-@app.route('/show/<filename>')
-def showfile(filename):
-	global patch_size
+@app.route('/show/<filename>/<patch>')
+def showfile(filename, patch):
+	# global patch_size
 	fpath = os.path.join(app.config['UPLOAD_FOLDER'], filename).replace('\\', '/')
-	ImageMasaic.do_Mosaic(fpath, patch=patch_size)
+	ImageMasaic.do_Mosaic(fpath, patch=patch)
 	fname = filename.rsplit('.', 1)
 	newfile = fname[0] + "_q." + ''.join(fname[1:])
 	print(newfile)

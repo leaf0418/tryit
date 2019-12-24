@@ -1,4 +1,5 @@
 {% extends "frame.html" %}
 {% block content %}
+<input type="button" value="再選一張" onclick="location.href='/'"><br>
 <img src="{{url_for('static', filename=fn)}}">
 {% endblock %}

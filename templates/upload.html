@@ -2,7 +2,15 @@
 {% block content %}
 <h1>Upload new File</h1>
 	<form method=post action="{{ url_for('upload_file') }}" enctype=multipart/form-data >
-	<input type=file name=file>
-	<input type=submit value=Upload>
+
+		<input type=file name=file>
+		<input type=submit value=Upload><br>
+
+		馬賽克程度<select name="patch">
+			<option>Big</option>
+			<option>Mid</option>
+			<option>Small</option>
+		</select>
+
 	</form>
 {% endblock %}
